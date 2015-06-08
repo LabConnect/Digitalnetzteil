@@ -1,0 +1,13 @@
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\NetzteilGUI.exe.config
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Debug\NetzteilGUI.Properties.Resources.resources
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Debug\NetzteilGUI.csproj.GenerateResource.Cache
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\NetzteilGUI.exe
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\NetzteilGUI.pdb
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Debug\NetzteilGUI.exe
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Debug\NetzteilGUI.pdb
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Debug\NetzteilGUI.csprojResolveAssemblyReference.cache
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Debug\NetzteilGUI.Netzteil.resources
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\DigitalNetzteil.dll
+c:\users\ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\DigitalNetzteil.pdb
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\HidLibrary.dll
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Debug\DigitalNetzteil.xml

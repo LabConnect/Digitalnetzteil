@@ -1,0 +1,21 @@
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.dll
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.pdb
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Release\HidLibrary.dll
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.dll
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.pdb
+C:\Users\Ch4ck1\Documents\Visual Studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.XML
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.XML
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.dll
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.pdb
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\bin\Release\HidLibrary.dll
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.dll
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.pdb
+C:\Users\Chacki\Desktop\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.csprojResolveAssemblyReference.cache
+F:\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.dll.config
+F:\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.XML
+F:\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.dll
+F:\DigitalNetzteil\DigitalNetzteil\bin\Release\DigitalNetzteil.pdb
+F:\DigitalNetzteil\DigitalNetzteil\bin\Release\HidLibrary.dll
+F:\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.dll
+F:\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.pdb
+F:\DigitalNetzteil\DigitalNetzteil\obj\Release\DigitalNetzteil.csprojResolveAssemblyReference.cache

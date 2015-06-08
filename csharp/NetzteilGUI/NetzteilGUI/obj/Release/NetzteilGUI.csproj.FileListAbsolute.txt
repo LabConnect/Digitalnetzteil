@@ -1,0 +1,39 @@
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.exe.config
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.exe
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.pdb
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.dll
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\HidLibrary.dll
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.pdb
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.xml
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.csprojResolveAssemblyReference.cache
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.Netzteil.resources
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.Properties.Resources.resources
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.csproj.GenerateResource.Cache
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.exe
+C:\Users\Ch4ck1\documents\visual studio 2012\Projects\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.pdb
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.exe.config
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.exe
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.pdb
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.exe
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.pdb
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.dll
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\HidLibrary.dll
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.pdb
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.xml
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.csprojResolveAssemblyReference.cache
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.Netzteil.resources
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.Properties.Resources.resources
+C:\Users\Chacki\Desktop\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.csproj.GenerateResource.Cache
+F:\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.exe.config
+F:\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.exe
+F:\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.pdb
+F:\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.exe
+F:\NetzteilGUI\NetzteilGUI\bin\Release\NetzteilGUI.pdb
+F:\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.dll
+F:\NetzteilGUI\NetzteilGUI\bin\Release\HidLibrary.dll
+F:\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.pdb
+F:\NetzteilGUI\NetzteilGUI\bin\Release\DigitalNetzteil.xml
+F:\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.csprojResolveAssemblyReference.cache
+F:\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.Netzteil.resources
+F:\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.Properties.Resources.resources
+F:\NetzteilGUI\NetzteilGUI\obj\Release\NetzteilGUI.csproj.GenerateResource.Cache

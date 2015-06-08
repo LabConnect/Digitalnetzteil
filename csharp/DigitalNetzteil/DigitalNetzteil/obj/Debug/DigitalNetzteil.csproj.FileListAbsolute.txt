@@ -1,0 +1,11 @@
+c:\users\ch4ck1\documents\visual studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Debug\DigitalNetzteil.dll
+c:\users\ch4ck1\documents\visual studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Debug\DigitalNetzteil.pdb
+c:\users\ch4ck1\documents\visual studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\bin\Debug\HidLibrary.dll
+c:\users\ch4ck1\documents\visual studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\obj\Debug\DigitalNetzteil.dll
+c:\users\ch4ck1\documents\visual studio 2012\Projects\DigitalNetzteil\DigitalNetzteil\obj\Debug\DigitalNetzteil.pdb
+F:\DigitalNetzteil\DigitalNetzteil\bin\Debug\DigitalNetzteil.dll.config
+F:\DigitalNetzteil\DigitalNetzteil\bin\Debug\DigitalNetzteil.dll
+F:\DigitalNetzteil\DigitalNetzteil\bin\Debug\DigitalNetzteil.pdb
+F:\DigitalNetzteil\DigitalNetzteil\bin\Debug\HidLibrary.dll
+F:\DigitalNetzteil\DigitalNetzteil\obj\Debug\DigitalNetzteil.dll
+F:\DigitalNetzteil\DigitalNetzteil\obj\Debug\DigitalNetzteil.pdb

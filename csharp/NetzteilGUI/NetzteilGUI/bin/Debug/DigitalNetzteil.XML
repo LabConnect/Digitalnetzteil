@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DigitalNetzteil</name>
+    </assembly>
+    <members>
+        <member name="T:DigitalNetzteil.Device">
+            <summary>
+            Class for digital power supply
+            </summary>
+        </member>
+        <member name="F:DigitalNetzteil.Device.isInitialized">
+            <summary>
+            True if device initialized
+            </summary>
+        </member>
+        <member name="M:DigitalNetzteil.Device.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initialize a new device
+            </summary>
+            <param name="vid">Vendor ID</param>
+            <param name="pid">Product ID</param>
+        </member>
+        <member name="M:DigitalNetzteil.Device.close">
+            <summary>
+            Close the device
+            </summary>
+        </member>
+        <member name="M:DigitalNetzteil.Device.setVoltage(System.Single)">
+            <summary>
+            Sets the voltage of the device
+            </summary>
+            <param name="voltage">Voltage value in %</param>
+            <returns>False if device not connected</returns>
+        </member>
+        <member name="M:DigitalNetzteil.Device.setCurrent(System.Single)">
+            <summary>
+            Sets the maximal current of the device
+            </summary>
+            <param name="current">Max current value in %</param>
+            <returns>False if device not connected</returns>
+        </member>
+        <member name="M:DigitalNetzteil.Device.readVoltage(System.Single@)">
+            <summary>
+            Read the present voltage of the device
+            </summary>
+            <param name="voltage">Present Voltage</param>
+            <returns>False if device not connected</returns>
+        </member>
+        <member name="M:DigitalNetzteil.Device.readCurrent(System.Single@)">
+            <summary>
+            Read the present current of the device
+            </summary>
+            <param name="current">Present current</param>
+            <returns>False if device not connected</returns>
+        </member>
+    </members>
+</doc>

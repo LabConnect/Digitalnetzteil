@@ -220,7 +220,7 @@ section at the end of this file).
  * own Vendor ID, define it here. Otherwise you may use one of obdev's free
  * shared VID/PID pairs. Be sure to read USB-IDs-for-free.txt for rules!
  */
-#define  USB_CFG_DEVICE_ID       0x33, 0x33 
+#define  USB_CFG_DEVICE_ID       0x33, 0x33
 /* This is the ID of the product, low byte first. It is interpreted in the
  * scope of the vendor ID. If you have registered your own VID with usb.org
  * or if you have licensed a PID from somebody else, define it here. Otherwise
@@ -230,7 +230,7 @@ section at the end of this file).
 #define USB_CFG_DEVICE_VERSION  0x00, 0x01
 /* Version number of the device: Minor number first, then major number.
  */
-#define USB_CFG_VENDOR_NAME     'L', 'a', 'b', 'C', 'o', 'n', 'n', 'e', 'c', 't' 
+#define USB_CFG_VENDOR_NAME     'L', 'a', 'b', 'C', 'o', 'n', 'n', 'e', 'c', 't'
 #define USB_CFG_VENDOR_NAME_LEN 10
 /* These two values define the vendor name returned by the USB device. The name
  * must be given as a list of characters under single quotes. The characters

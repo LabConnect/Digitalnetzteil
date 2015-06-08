@@ -25,24 +25,24 @@ at least be connected to INT0 as well.
 #include "usbdrv.h"
 #include "oddebug.h" /* This is also an example for using debug macros */
 #include "powersupply.h"
-#define  ACK 0x7E
-#define  LONG_TIME 10000
+#define ACK 0x7E
+#define LONG_TIME 10000
 /* ------------------------------------------------------------------------- */
 /* ----------------------------- USB interface ----------------------------- */
 /* ------------------------------------------------------------------------- */
 
-PROGMEM const char usbHidReportDescriptor[22] =
-    {                   /* USB report descriptor */
-     0x06, 0x00, 0xff,  // USAGE_PAGE (Generic Desktop)
-     0x09, 0x01,        // USAGE (Vendor Usage 1)
-     0xa1, 0x01,        // COLLECTION (Application)
-     0x15, 0x00,        //   LOGICAL_MINIMUM (0)
-     0x26, 0xff, 0x00,  //   LOGICAL_MAXIMUM (255)
-     0x75, 0x08,        //   REPORT_SIZE (8)
-     0x95, 0x80,        //   REPORT_COUNT (128)
-     0x09, 0x00,        //   USAGE (Undefined)
-     0xb2, 0x02, 0x01,  //   FEATURE (Data,Var,Abs,Buf)
-     0xc0               // END_COLLECTION
+PROGMEM const char usbHidReportDescriptor[22] = {
+    /* USB report descriptor */
+    0x06, 0x00, 0xff, // USAGE_PAGE (Generic Desktop)
+    0x09, 0x01,       // USAGE (Vendor Usage 1)
+    0xa1, 0x01,       // COLLECTION (Application)
+    0x15, 0x00,       // LOGICAL_MINIMUM (0)
+    0x26, 0xff, 0x00, // LOGICAL_MAXIMUM (255)
+    0x75, 0x08,       // REPORT_SIZE (8)
+    0x95, 0x80,       // REPORT_COUNT (128)
+    0x09, 0x00,       // USAGE (Undefined)
+    0xb2, 0x02, 0x01, // FEATURE (Data,Var,Abs,Buf)
+    0xc0              // END_COLLECTION
 };
 /* Since we define only one feature report, we don't use report-IDs (which
  * would be the first byte of the report). The entire report consists of 128
@@ -52,16 +52,16 @@ PROGMEM const char usbHidReportDescriptor[22] =
 /* The following variables store the status of the current data transfer */
 static uchar bytesRemaining;
 
-
 /* ------------------------------------------------------------------------- */
 
 /* usbFunctionRead() is called when the host requests a chunk of data from
  * the device. For more information see the documentation in usbdrv/usbdrv.h.
  */
 uchar usbFunctionRead(uchar *data, uchar len) {
-  if (len > bytesRemaining) len = bytesRemaining;
+  if (len > bytesRemaining)
+    len = bytesRemaining;
 
-
+  USB_Read(&data[0], &data[1]);
 
   bytesRemaining -= len;
   return len;
@@ -71,10 +71,12 @@ uchar usbFunctionRead(uchar *data, uchar len) {
  * device. For more information see the documentation in usbdrv/usbdrv.h.
  */
 uchar usbFunctionWrite(uchar *data, uchar len) {
-  if (bytesRemaining == 0) return 1; /* end of transfer */
-  if (len > bytesRemaining) len = bytesRemaining;
+  if (bytesRemaining == 0)
+    return 1; /* end of transfer */
+  if (len > bytesRemaining)
+    len = bytesRemaining;
 
-
+  USB_Set(data[0], data[1]);
 
   bytesRemaining -= len;
   return bytesRemaining == 0; /* return 1 if this was the last chunk */
@@ -107,7 +109,6 @@ usbMsgLen_t usbFunctionSetup(uchar data[8]) {
 /* ------------------------------------------------------------------------- */
 
 int main(void) {
-  uint8_t value;
   uchar i;
   wdt_enable(WDTO_1S);
   /* If you don't use the watchdog, replace the call above with a wdt_disable().
@@ -130,13 +131,15 @@ int main(void) {
   }
   usbDeviceConnect();
   sei();
-  DBG1(0x01, 0, 0);   /* debug output: main loop starts */
+  DBG1(0x01, 0, 0); /* debug output: main loop starts */
   PSU_Init();
   for (;;) {          /* main event loop */
     DBG1(0x02, 0, 0); /* debug output: main loop iterates */
     wdt_reset();
     usbPoll();
-    test();
+    Menu();
+    Refresh();
+    Max_Current();
   }
   return 0;
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DigitalNetzteil</name>
+    </assembly>
+    <members>
+        <member name="T:DigitalNetzteil.Device">
+            <summary>
+            Class for digital power supply
+            </summary>
+        </member>
+        <member name="F:DigitalNetzteil.Device.isInitialized">
+            <summary>
+            True if device initialized
+            </summary>
+        </member>
+        <member name="M:DigitalNetzteil.Device.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initialize a new device
+            </summary>
+            <param name="vid">Vendor ID</param>
+            <param name="pid">Product ID</param>
+        </member>
+        <member name="M:DigitalNetzteil.Device.close">
+            <summary>
+            Close the device
+            </summary>
+        </member>
+        <member name="M:DigitalNetzteil.Device.setVoltage(System.Double)">
+            <summary>
+            Sets the voltage of the device
+            </summary>
+            <param name="voltage">Voltage value (2 to 20)</param>
+            <returns>False if device not connected</returns>
+        </member>
+        <member name="M:DigitalNetzteil.Device.setCurrent(System.Double)">
+            <summary>
+            Sets the maximal current of the device
+            </summary>
+            <param name="current">Max current value (0 to 2)</param>
+            <returns>False if device not connected</returns>
+        </member>
+        <member name="M:DigitalNetzteil.Device.readValues(System.Double@,System.Double@)">
+            <summary>
+            Read the present voltage and current of the device
+            </summary>
+            <param name="voltage">Present Voltage</param>
+            <param name="current">Present Current</param>
+            <returns>False if device not connected</returns>
+        </member>
+    </members>
+</doc>
